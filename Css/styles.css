@@ -1,0 +1,123 @@
+body{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('../images/bg-desktop.svg');
+}
+h1{
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 3% 0;
+}
+.logo{
+    width: 150px;
+}
+.main{
+    margin-top: 50px;
+}
+ 
+.container-text{
+    margin-left: 50px;
+    width: 75%;
+    font-size: 16.5px;
+    line-height: 1.5; 
+}
+.button{
+    border: none;
+    margin-left: 50px;
+    border-radius: 40px;
+    width: 30%;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+.icon-box{
+    position: relative;
+    height: 50px;
+}
+.icon-main{
+    position: absolute;
+    right: 50px;
+}
+
+.icons {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 100%;
+    margin: 20px 2px;
+}
+.icons:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+     margin-top: 30px;
+     }
+
+
+@media (max-width: 900px){
+    body{
+        text-align: center;
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        padding: 3% 3% 0;
+    }
+    h1{
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
+    .main{
+        margin-top: 10px;
+        padding: 5%;
+    }
+    .container-text{
+        margin: 0 auto;
+        padding: 4%;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5; 
+    }
+    .button{
+        border: none;
+        margin: 20px auto;
+        border-radius: 40px;
+        width: 60%;
+        color: hsl(257, 40%, 49%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        font-size: 1rem;
+    }
+    .icon-main {
+        margin-top: 50px;
+        position: static;
+    }
+
+}
+
